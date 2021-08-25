@@ -1,0 +1,50 @@
+
+.tittle{
+    color: whitesmoke;
+    background-color: black;
+    height: 18vh;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Besley', serif;
+}
+.actors-wrap {
+    display: flex;
+    text-align: center;
+}
+
+.list-style {
+    display: none;
+}
+
+.actors.selected .list-style {
+    display: block;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: -2rem;
+}
+
+
+.list-style li {
+    padding: 2rem 3rem 2rem 1rem;
+}
+
+.list-style li{
+    list-style: none;
+}
+
+.actors{
+    width: 100%;
+
+}
+.actors h3{
+    font-size: 2rem;
+    background-color: cornflowerblue;
+    padding: 8px;
+}
+
+.actors.selected h3 {
+    color: cornflowerblue;
+    background-color: black;
+}
